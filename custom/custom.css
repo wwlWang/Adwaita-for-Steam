@@ -10,11 +10,6 @@
 	--library-opacity: 0.3;
 }
 
-/* Background */
-/*body.DesktopUI div._3mz8wQ6Q44B8P7pzPP4Iyw {*/
-/*	background: var(--image-path) center / cover !important;*/
-/*}*/
-
 /* Top bar */
 body.DesktopUI div._3Z7VQ1IMk4E3HsHvrkLNgo {
 	background-color: rgba(0, 0, 0, var(--top-bar-opacity)) !important;
@@ -32,22 +27,23 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 div._17uEBe5Ri8TMsnfELvs8-N /* News *
 body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 div._3Sb2o_mQ30IDRh0C72QUUu /* New shelf */,
 body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA div._3FmxxjyWNHU1PrBGnBe6tm /* Game Content */,
 body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA div._27RcNu8aXKBpYkHcNNrt-X,
-body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA div.Jbe--NUNw7sxbxGsMSjVa ,
-._2sNr7PFYcJZWNkEMCDVVPR /* Category */ {
+body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA div.Jbe--NUNw7sxbxGsMSjVa,
+._2sNr7PFYcJZWNkEMCDVVPR /* Category */
+{
 	background: transparent !important;
 }
 
 /* Game list */
 body.DesktopUI
-	div._3x1HklzyDs4TEjACrRO2tB
-	> div._1ijTaXJJA5YWl_fW2IxcaT::before,
+div._3x1HklzyDs4TEjACrRO2tB
+> div._1ijTaXJJA5YWl_fW2IxcaT::before,
 body.DesktopUI div._3x1HklzyDs4TEjACrRO2tB > div._1ijTaXJJA5YWl_fW2IxcaT::after,
 body.DesktopUI
-	div._1ijTaXJJA5YWl_fW2IxcaT
-	div.ReactVirtualized__Grid__innerScrollContainer::before,
+div._1ijTaXJJA5YWl_fW2IxcaT
+div.ReactVirtualized__Grid__innerScrollContainer::before,
 body.DesktopUI
-	div._1ijTaXJJA5YWl_fW2IxcaT
-	div.ReactVirtualized__Grid__innerScrollContainer::after {
+div._1ijTaXJJA5YWl_fW2IxcaT
+div.ReactVirtualized__Grid__innerScrollContainer::after {
 	height: 0 !important;
 }
 
@@ -62,136 +58,114 @@ body.DesktopUI div._3KDkLoCR8OM8xfdQysKn9t {
 	background: transparent !important;
 }
 
-._3mz8wQ6Q44B8P7pzPP4Iyw /*整体背景从body数第五层*/{
+._3mz8wQ6Q44B8P7pzPP4Iyw /*整体背景从body数第五层*/
+{
 	background: var(--image-path) center / cover !important;
-	background-position: center;
-	background-size: cover;
-/*	backdrop-filter: blur(4px);*/
+	/*	backdrop-filter: blur(4px);*/
 }
 
-._2TKEazUUS3TlniZfpc8OOe/*库列表顶部第一层*/ {
+._2TKEazUUS3TlniZfpc8OOe /*库列表顶部第一层*/
+{
 	background: transparent !important;
 }
 
-._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu /*标题栏第一层，标题栏下方那一条（库第二层的第一个元素），商店网址栏，下栏第二层*/ {
+._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu /*标题栏第一层，标题栏下方那一条（库第二层的第一个元素），商店网址栏，下栏第二层*/
+{
 	background: rgba(0, 0, 0, 0.5) !important;
 }
 
-._3pSPluBgf0NeR1kkCLWMhR/*库列表顶部第三层第一类*/ {
+._3pSPluBgf0NeR1kkCLWMhR /*库列表顶部第三层第一类*/
+{
 	background: rgba(0, 0, 0, 0.5) !important;
 }
 
-.RGNMWtyj73_-WdhflrmuY /*库（下载）第二层第一类*/{
+.RGNMWtyj73_-WdhflrmuY /*库（下载）第二层第一类*/
+{
 	background: transparent !important;
 }
 
-._3x1HklzyDs4TEjACrRO2tB /*库游戏列表第二层*/{
+._3x1HklzyDs4TEjACrRO2tB /*库游戏列表第二层*/
+{
 	background: rgba(0, 0, 0, 0.3) !important;
 }
 
-._2gSXCB6PbOlMxslr8hm6dm/*库右侧第四层第二类*/ {
+._2gSXCB6PbOlMxslr8hm6dm /*库右侧第四层第二类*/
+{
 	background: transparent !important;
 }
 
-._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2/*库右侧第二层和缝第二类*/ {
+._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2 /*库右侧第二层和缝第二类*/
+{
 	background: rgba(0, 0, 0, 0.3) !important;
 }
 
-._17uEBe5Ri8TMsnfELvs8-N/*新情报速递*/ {
+._17uEBe5Ri8TMsnfELvs8-N /*新情报速递*/
+{
 	background: transparent !important;
 }
 
-._3Sb2o_mQ30IDRh0C72QUUu/*添加新陈列架*/ {
+._3Sb2o_mQ30IDRh0C72QUUu /*添加新陈列架*/
+{
 	background: transparent !important;
 }
 
-._3lDczhulqraStjCitLYJ1K/*库右侧第五层第一类，beta*/ {
+._3lDczhulqraStjCitLYJ1K /*库右侧第五层第一类，beta*/
+{
 	background: transparent !important;
 }
 
-._2sNr7PFYcJZWNkEMCDVVPR/*全部游戏(库右侧第四层第二类)，beta*/ {
+._2sNr7PFYcJZWNkEMCDVVPR /*全部游戏(库右侧第四层第二类)，beta*/
+{
 	background: transparent !important;
 }
 
-._1bq4x9pa4-9RLY-dXWUZTp /*下载父容器（下载第七层）*/ {
+._1bq4x9pa4-9RLY-dXWUZTp /*下载父容器（下载第七层）*/
+{
 	background: transparent !important;
 }
 
-._3Mbhnlk1Go2j8yCdjthzc7/*速度第二层第一类（速度左）*/ {
+._3Mbhnlk1Go2j8yCdjthzc7 /*速度第二层第一类（速度左）*/
+{
 	background: transparent !important;
 }
 
-._24D3LpyHe8-HbiQftVVsna/*速度第五层第三个元素（速度右）*/ {
+._24D3LpyHe8-HbiQftVVsna /*速度第五层第三个元素（速度右）*/
+{
 	background: transparent !important;
 }
 
-._1VNuYHM6BPBOJspC6zPf5r /*下载项第一类*/{
+._1VNuYHM6BPBOJspC6zPf5r /*下载项第一类*/
+{
 	background: transparent !important;
 }
 
-._2sYIghGVXJr6tsQVvcryy8/*游戏分组标签第一类*/ {
+._2sYIghGVXJr6tsQVvcryy8 /*游戏分组标签第一类*/
+{
 	background: linear-gradient(to right, rgba(41, 47, 59, 0) 40%, rgba(62, 78, 105, 0) 100%) !important;
 }
 
-.friendListHeaderContainer, .friendListFooter/*上，下*/ {
+.friendListHeaderContainer, .friendListFooter /*上，下*/
+{
 	background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.activeTab, .friendsListSectionTitle/*好友，群组聊天*/ {
+.activeTab, .friendsListSectionTitle /*好友，群组聊天*/
+{
 	background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
-.friendlistListContainer, .chatRoomListContainer/*好友列表，群组列表*/ {
+.friendlistListContainer, .chatRoomListContainer /*好友列表，群组列表*/
+{
 	background: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* 自定义添加  */
-html.client_chat_frame {
-	.titleBarContainer.ChatTabs, .chatEntry/*聊天标题栏，聊天页面下栏总*/{
-		background-color: rgba(0, 0, 0, 0.3) !important;
-	}
-
-	.chatWindow .chatHeader /*聊天框顶部条*/{
-		background: transparent !important;
-	}
-
-	._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_/*好友标签*/ {
-		background-color: rgba(0, 0, 0, 0.1) !important;
-	}
-
-	div.chatDialogs {
-		background: transparent !important;
-		div.chatWindow.Panel/*聊天框+下栏*/{
-			background: transparent !important;
-		}
-	}
-
-	.chatHistoryScroll /*聊天记录*/{
-		background-color: rgba(0, 0, 0, 0.5) !important;
-	}
-
-	._3Ule3rolhZJiBN4yNNtk1s/*输入框*/{
-		background-color: rgba(0, 0, 0, 0.1) !important;
-	}
-}
-/* 商店 背景 */
-body.DesktopUI {
-	div._1bGewp3tfzqAF6fVTFFUOz {
-		background: rgba(0, 0, 0, 0.05) !important;
-	}
-}
-/* 商店 背景 透明 */
-.DesktopUI.client {
-	body.v6 {
-		background: transparent !important;
-	}
-}
 /* 商店详情背景图， 购物车背景图， 社区背景图 */
 .game_page_background.game, .FaiD8bJRAZ-HoNo0VvLOO, .apphub_background {
 	background-size: 0 !important;
 }
 /* 商店详情背景图 光圈，主页精选下方光圈 */
-.game_background_glow, .home_cluster_ctn  {
+.game_background_glow, .home_cluster_ctn {
 	background: none !important;
 }
 /* 页面底部Steam介绍，页面中央 新品推荐，底部滑动推荐 特殊黑块，社区背景 */
@@ -199,94 +173,105 @@ body.DesktopUI {
 	background: transparent !important;
 }
 /* 社区 评论栏 */
-.apphub_Card  {
+.apphub_Card {
 	background: rgba(0, 0, 0, 0.3) !important;
 }
 /* 用户反馈 底部渐出 */
 .UserReviewCardContent_Footer {
 	display: none;
 }
-.games_list_tabs_ctn {
-	/* 库存栏目 类型选择列表 */
-	background: rgba(0, 0, 0, 0.15) !important;
-	border-radius: 12px;
-	.games_list_tab {
-		/* 子栏目背景 */
+/* 顶部小个人资料(各类页面) */
+.profile_small_header_bg {
+	background: transparent !important;
+}
+/* 库存 */
+body.inventory_page {
+	.games_list_tabs_ctn {
+		/* 库存栏目 类型选择列表 */
+		background: rgba(0, 0, 0, 0.15) !important;
+		border-radius: 12px;
+
+		.games_list_tab {
+			/* 子栏目背景 */
+			background: transparent !important;
+			border: none !important;
+			transition: 1s all;
+		}
+
+		.games_list_tab:hover {
+			background: rgba(0, 0, 0, 0.3) !important;
+		}
+
+		.games_list_tab.active {
+			/* 子栏目 激活栏目 */
+			box-shadow: none !important;
+			background: rgba(0, 0, 0, 0.4) !important;
+		}
+
+		.games_list_tab_separator {
+			/* 栏目分割线 */
+			display: none !important;
+		}
+	}
+
+	#inventories {
+		/* 库存物品左侧栏目 背景 */
 		background: transparent !important;
 		border: none !important;
-		transition: 1s all;
 	}
-	.games_list_tab:hover {
-		/* 子栏目 悬停 */
-		background: rgba(0, 0, 0, 0.3) !important;
+
+	.itemHolder, .item {
+		/* 库存左侧栏目子物品 背景 */
+		background: transparent !important;
+		border-radius: 12px;
+		transition: 500ms all;
 	}
-	.games_list_tab.active {
-		/* 子栏目 激活栏目 */
-		box-shadow: none !important;
-		background: rgba(0, 0, 0, 0.4) !important;
+
+	.item:hover {
+		/* 库存左侧栏目子物品 悬停 */
+		scale: 1.15 !important;
+		background: rgba(255, 255, 255, 0.3) !important;
 	}
-	.games_list_tab_separator {
-		/* 栏目分割线 */
-		display: none !important;
+
+	.item.activeInfo {
+		/* 库存左侧栏目子物品 选中 */
+		background: rgba(255, 255, 255, 0.3) !important;
+	}
+
+	.item_market_actions {
+		/* 物品右侧操作(出售) */
+		background: transparent !important;
+	}
+
+	#tabcontent_inventory {
+		/* 库存 主背景 */
+		background: rgba(0, 0, 0, 0.25) !important;
+		border: none !important;
+	}
+
+	.view_inventory_page {
+		/* 库存 主背景 下一层 */
+		background: transparent !important;
+	}
+
+	.inventory_iteminfo {
+		/* 库存右侧物品详情 向上一层(描边) */
+		border-radius: 12px;
+	}
+
+	.item_desc_content {
+		/* 库存右侧物品详情 背景 */
+		background: rgba(0, 0, 0, 0.2) !important;
+		border-radius: 12px;
 	}
 }
-
-#inventories {
-	/* 库存物品左侧栏目 背景 */
-	background: transparent !important;
-	border: none !important;
-}
-
-.itemHolder, .item {
-	/* 库存左侧栏目子物品 背景 */
-	background: transparent !important;
-	border-radius: 12px;
-	transition: 500ms all;
-}
-
-.item:hover {
-	/* 库存左侧栏目子物品 悬停 */
-	scale: 1.15 !important;
-	background: rgba(255, 255, 255, 0.3) !important;
-}
-.item.activeInfo {
-	/* 库存左侧栏目子物品 选中 */
-	background: rgba(255, 255, 255, 0.3) !important;
-}
-.item_market_actions {
-	/* 物品右侧操作(出售) */
-	background: transparent !important;
-}
-#tabcontent_inventory {
-	/* 库存 主背景 */
-	background: rgba(0, 0, 0, 0.25) !important;
-	border: none !important;
-}
-
-.view_inventory_page {
-	/* 库存 主背景 下一层 */
-	background: transparent !important;
-}
-
-.inventory_iteminfo {
-	/* 库存右侧物品详情 向上一层(描边) */
-	border-radius: 12px;
-}
-
-.item_desc_content {
-	/* 库存右侧物品详情 背景 */
-	background: rgba(0, 0, 0, 0.2) !important;
-	border-radius: 12px;
-}
-
-/* 好友栏背景 开始 */
+/* 好友栏背景 */
 html.client_chat_frame {
 	body {
 		/* 整体背景 */
 		background: var(--image-path) center / cover !important;
-		background-position: center center !important;
-		background-size: cover !important;
 	}
+
 	div.friendlist,
 	div.friendlist > *,
 	div.friendListHeaderContainer,
@@ -295,6 +280,42 @@ html.client_chat_frame {
 	div._18bmBH7zyngCgHtgY3IEL_ {
 		/* 整体模块背景压暗 */
 		background: rgba(0, 0, 0, 0.25) !important;
+	}
+}
+/* 好友聊天栏 */
+html.client_chat_frame {
+	.titleBarContainer.ChatTabs, .chatEntry /*聊天标题栏，聊天页面下栏总*/
+	{
+		background-color: rgba(0, 0, 0, 0.3) !important;
+	}
+
+	.chatWindow .chatHeader /*聊天框顶部条*/
+	{
+		background: transparent !important;
+	}
+
+	._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ /*好友标签*/
+	{
+		background-color: rgba(0, 0, 0, 0.1) !important;
+	}
+
+	div.chatDialogs {
+		background: transparent !important;
+
+		div.chatWindow.Panel /*聊天框+下栏*/
+		{
+			background: transparent !important;
+		}
+	}
+
+	.chatHistoryScroll /*聊天记录*/
+	{
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+
+	._3Ule3rolhZJiBN4yNNtk1s /*输入框*/
+	{
+		background-color: rgba(0, 0, 0, 0.1) !important;
 	}
 }
 /* 弹出的聊天框 */
@@ -307,6 +328,7 @@ html.client_chat_frame {
 			border-radius: 10px;
 		}
 	}
+
 	.HorizontalMiniSlider {
 		/* 顶部小条（切换好友） */
 		background: rgba(0, 0, 0, 0.25) !important;
@@ -317,10 +339,12 @@ html.client_chat_frame {
 		/* 单个好友划入 */
 		background: rgba(0, 0, 0, 0.3) !important;
 	}
+
 	._2WfNoLBdfKwyutA6ho4aSH {
 		background: transparent !important;
 		box-shadow: none !important;
 	}
+
 	.RVIs84dAE6wHcjH9tkinc {
 		/* 按钮 */
 		background: rgba(0, 0, 0, 0.25) !important;
@@ -328,8 +352,6 @@ html.client_chat_frame {
 		border-radius: 12px;
 	}
 }
-/* 好友栏背景 结束 */
-
 /* 顶部三大按钮 */
 body.DesktopUI, html.client_chat_frame {
 	.title-area {
@@ -338,69 +360,179 @@ body.DesktopUI, html.client_chat_frame {
 				scale: 1.25 !important;
 				background: rgba(0, 0, 0, 0.4) !important;
 			}
+
 			.title-area-icon.closeButton:hover {
 				background: rgba(255, 0, 0, 0.3) !important;
 			}
 		}
 	}
 }
+/* 主界面 */
 body.DesktopUI {
-	/* 登录界面 */
+	/* 登录页 背景 */
 	div.VZ6x_grhNkIYJG__jEEyp.DesktopUI {
-		/* 背景 */
 		background: var(--image-path) center / cover !important;
-		background-position: center center !important;
-		background-size: cover !important;
 	}
+
+	/* 登录页 顶部栏和底部栏，用于压低背景亮度 */
 	div._37ANMR1DAeBJYXulW34A2S, div._27A5ub1QLLIMmgywKVMg4z, div._1TR3CCCdSmI-0MXucYBuP2,
-	 div._1NOsG2PAO2rRBb8glCFM_6._2v9dClMg2Lmn8UVv6GUeJt._1VAFgEYpKJDwl9aI8W5ctY {
-		/* 顶部栏和底部栏，用于压低背景亮度 */
+	div._1NOsG2PAO2rRBb8glCFM_6._2v9dClMg2Lmn8UVv6GUeJt._1VAFgEYpKJDwl9aI8W5ctY {
 		background: rgba(0, 0, 0, 0.5) !important;
 	}
 
+	/* 游戏库 鼠标悬停小窗游戏预览 */
 	._2_lmTz0tA4NOSle5WaO1PZ {
 		div._2sGn0cBsD44TjnUIh-lx9d {
-			/* 鼠标悬停小窗游戏预览 */
 			background: rgba(0, 0, 0, 0.5) !important;
 		}
 	}
-}
 
-/* 登录后的加载页 */
-body.DesktopUI {
-	._1mfQu39T7gxcr0KSHso6_A {
+	/* 登录后的加载页 */
+	._27qasW5wLU4h4nUgawpo1q {
 		/* 背景 */
 		background: var(--image-path) center / cover !important;
-		background-position: center center !important;
-		background-size: cover !important;
-		._27qasW5wLU4h4nUgawpo1q {
-			/* 两层颜色层 屏蔽 */
-			._1ENHEsrSLcTRtPQFl1F-wL {
-				background: rgba(0, 0, 0, 0.2) !important;
-				._2YwTwqFtU04JgwfzXSAcSV {
-					background: transparent !important;
-				}
-			}
+		/* 两层颜色层 屏蔽 */
 
+		._1ENHEsrSLcTRtPQFl1F-wL {
+			background: rgba(0, 0, 0, 0.2) !important;
+			._2YwTwqFtU04JgwfzXSAcSV {
+				background: transparent !important;
+			}
 		}
+
 	}
+
 	/* 预显示steam商店的占位 */
 	._1rDh5rXSFZJOqCa4UpnI4z {
 		background: rgba(0, 0, 0, 0.35) !important;
 	}
+	/* 弹窗圆角及背景 */
+	.DialogContent {
+		border-radius: 12px !important;
+		background: rgba(255, 255, 255, 0.2) !important;
+		backdrop-filter: blur(10px) !important;
+	}
+
+	/* 商店 背景 */
+	div._1bGewp3tfzqAF6fVTFFUOz {
+		background: rgba(0, 0, 0, 0.05) !important;
+	}
+	/* 商店 背景 透明 */
+	body.v6 {
+		background: transparent !important;
+	}
+
+	/* 下载页面 项目群 背景 */
+	.OINnOU8K5HzPe2nzczpZi {
+		background: rgba(0, 0, 0, 0.25) !important;
+		border-radius: 12px !important;
+		margin: 1rem !important;
+	}
+
+
 }
-/* 下载页面 项目群 背景 */
-.OINnOU8K5HzPe2nzczpZi {
-	background: rgba(0, 0, 0, 0.25) !important;
-	border-radius: 12px !important;
-	margin: 1rem !important;
+/* 交易报价页面 */
+.responsive_page {
+	/* 整体背景 */
+	.maincontent {
+		background: transparent !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+	/* 报价 */
+	.tradeoffer {
+		background: rgba(0, 0, 0, 0.25) !important;
+		border-radius: 4px !important;
+		padding-right: 24px !important;
+		padding-bottom: 24px !important;
+		padding-left: 60px !important;
+		/* 交易者 头像 偏移修复 */
+		.tradeoffer_partner {
+			left: 16px !important;
+		}
+	}
+	/* 报价分割线 */
+	.tradeoffer_rule {
+		display: none !important;
+	}
+	/* 报价内容 */
+	.tradeoffer_items_ctn {
+		background: transparent !important;
+		border: 4px solid rgba(255, 255, 255, 0.4) !important;
+		border-radius: 12px !important;
+	}
+	/* 报价状态横条 */
+	.tradeoffer_items_banner {
+		border-radius: 24px !important;
+		margin: 0 !important;
+		box-shadow: rgba(255, 255, 255, 0.8) 0 0 10px !important;
+		background: rgba(255, 255, 255, 0.5) !important;
+	}
+	/* 右侧栏(新建报价等) */
+	.rightcol_controls {
+		background: rgba(0, 0, 0, 0.4) !important;
+	}
+	/* 右侧分割线 */
+	.rightcol_controls_rule {
+		display: none !important;
+	}
+}
+/* 头像圆角 */
+.playerAvatar {
+	border-radius: 32px !important;
+	img:not(.profile_avatar_frame>img) {
+		border-radius: 32px !important;
+	}
+}
+/* 鼠标悬停的迷你个人资料 */
+.miniprofile_hover {
+	/* 外圈强阴影 */
+	.shadow_ul, .shadow_top, .shaodw_ur, .shadow_left, .shadow_right, .shadow_bl, .shadow_bottom, .shadow_br {
+		display: none !important;
+	}
+	/* 圆角，自定义阴影 */
+	.miniprofile_container {
+		box-shadow: rgba(255, 255, 255, 0.8) 0 0 10px !important;
+		border-radius: 24px !important;
+	}
+}
+/* Steam弹窗背景虚化 !依赖JS*/
+.DesktopUI {
+	/* Steam内弹窗 */
+	.ModalOverlayBackground {
+		backdrop-filter: blur(0);
+		background: rgba(0, 0, 0, 0);
+		transition: backdrop-filter 1s ease-in-out,
+		background 1s ease-in-out !important;
+	}
+	.ModalOverlayBackground.active {
+		backdrop-filter: blur(10px);
+		background: rgba(0, 0, 0, 0.4);
+	}
+	/* 浏览器端弹窗 */
+	.newmodal_background {
+		backdrop-filter: blur(10px);
+		background: rgba(0, 0, 0, 0.4);
+		transition: backdrop-filter 1s ease-in-out,
+		background 1s ease-in-out !important;
+	}
+	/* 弹窗背景 */
+	.newmodal {
+		backdrop-filter: blur(10px) !important;
+		background: rgba(40, 40, 40, 0.4) !important;
+	}
+	/* 好友弹窗 好友 */
+	.friendBlock.persona {
+		border-radius: 20px !important;
+		transition: 500ms all !important;
+	}
+	/* 好友划入 */
+	.friendBlock.persona:hover {
+		scale: 1.1;
+	}
 }
 
 /* 滚动条背景 */
 ::-webkit-scrollbar {
 	background: rgba(0, 0, 0, 0.5) !important;
 }
-
-/*div#popup_target {
-	background: rgba(0, 0, 0, 0.2) !important;
-}*/

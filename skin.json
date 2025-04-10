@@ -18,7 +18,8 @@
 	"Patches": [
 		{
 			"MatchRegexString": ".*",
-			"TargetCss": "millennium/millennium.css"
+			"TargetCss": "millennium/millennium.css",
+			"TargetJs": "custom/custom.js"
 		}
 	],
 
