@@ -2,7 +2,7 @@
 	"name": "Adwaita",
 	"author": "tkashkin",
 	"description": "A skin to make Steam look more like a native GNOME app",
-	"version": "3.9",
+	"version": "3.15",
 
 	"github": {
 		"owner": "tkashkin",
@@ -64,9 +64,10 @@
 		},
 		"Window controls theme": {
 			"description": "Window control buttons style",
-			"default": "Adwaita",
+			"default": "Adwaita (GNOME)",
 			"values": {
-				"Adwaita": { "TargetCss": { "affects": [".*"], "src": "adwaita/windowcontrols/adwaita.css" } },
+				"Adwaita (GNOME)": { "TargetCss": { "affects": [".*"], "src": "adwaita/windowcontrols/adwaita.css" } },
+				"Breeze (KDE)": { "TargetCss": { "affects": [".*"], "src": "adwaita/windowcontrols/breeze.css" } },
 				"macOS": { "TargetCss": { "affects": [".*"], "src": "adwaita/windowcontrols/macos.css" } },
 				"Windows": { "TargetCss": { "affects": [".*"], "src": "adwaita/windowcontrols/windows.css" } }
 			}
@@ -112,6 +113,14 @@
 				"Show": {},
 				"Show on Hover": { "TargetCss": { "affects": [".*"], "src": "adwaita/extras/login/hover_qr.css" } },
 				"Hide": { "TargetCss": { "affects": [".*"], "src": "adwaita/extras/login/hide_qr.css" } }
+			}
+		},
+		"Show URL": {
+			"description": "Shows URL on Store and Community pages in the main window",
+			"default": "no",
+			"values": {
+				"no": {},
+				"yes": { "TargetCss": { "affects": [".*"], "src": "adwaita/extras/store/show_url.css" } }
 			}
 		}
 	}
