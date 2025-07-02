@@ -76,7 +76,8 @@ body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA
 		}
 
 		div.Panel:last-child > &,
-		&.Panel:last-child
+		&.Panel:last-child,
+		div.Panel:has(+ div._2UySYiE8fUGGugkHVm1Qb) > &
 		{
 			border-bottom-left-radius: var(--adw-card-radius) !important;
 			border-bottom-right-radius: var(--adw-card-radius) !important;
@@ -87,6 +88,12 @@ body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA
 	div.rYBZBWnNW6m-N9vX0Chce
 	{
 		border-radius: var(--adw-card-radius) !important;
+	}
+
+	/* New DLC released */
+	div._2UySYiE8fUGGugkHVm1Qb
+	{
+		margin: 16px 0 0 0 !important;
 	}
 
 	/* Partner events */
@@ -260,7 +267,9 @@ body.DesktopUI div._2iE-78WxX2Pj4GHbq7YJiA
 	}
 
 	div.Panel:last-child > div.UVeN0kaD3zv1feMj_mMw5 div._2gv3EsHSu5dMQyMqaz-W9t > div.ddB5GVHCwLezhshXUMCNL,
-	div.Panel:last-child > div.UVeN0kaD3zv1feMj_mMw5 div._2tDv0EeJIdDmZLyfUE63t1 > div._1XpBItdUymdlwPZzvvOnyW
+	div.Panel:last-child > div.UVeN0kaD3zv1feMj_mMw5 div._2tDv0EeJIdDmZLyfUE63t1 > div._1XpBItdUymdlwPZzvvOnyW,
+	div.Panel:has(+ div._2UySYiE8fUGGugkHVm1Qb) > div.UVeN0kaD3zv1feMj_mMw5 div._2gv3EsHSu5dMQyMqaz-W9t > div.ddB5GVHCwLezhshXUMCNL,
+	div.Panel:has(+ div._2UySYiE8fUGGugkHVm1Qb) > div.UVeN0kaD3zv1feMj_mMw5 div._2tDv0EeJIdDmZLyfUE63t1 > div._1XpBItdUymdlwPZzvvOnyW
 	{
 		border-bottom-right-radius: var(--adw-card-radius) !important;
 	}
